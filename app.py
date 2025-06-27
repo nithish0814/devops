@@ -8,7 +8,7 @@ def fibonacci_series(n):
 
 # Get number of terms from user
 try:
-    n = int(input("Enter number of Fibonacci terms: "))
+    n = int(input("Enter number of the Fibonacci terms: "))
     if n <= 0:
         print("Please enter a positive integer.")
     else:
